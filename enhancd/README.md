@@ -19,7 +19,7 @@ To specify list of one or more visual filters add the following line to
 *zpreztorc*:
 
 ```sh
-zstyle ":prezto:module:enhancd" command "fzf:fzy:peco"
+zstyle ":prezto:module:enhancd" filter "fzf:fzy:peco"
 ```
 
 Available options include [fzy][2], [fzf][3], [peco][4] etc.
@@ -29,13 +29,6 @@ To specify a command to invoke [enhancd][1] add the following line to
 
 ```sh
 zstyle ":prezto:module:enhancd" command "cd"
-```
-
-To set whether to show the full path or not when executing `..` add the
-following line to *zpreztorc*
-
-```sh
-zstyle ":prezto:module:enhancd" show-fullpath "ENHANCD_DOT_SHOW_FULLPATH"
 ```
 
 Troubleshooting
