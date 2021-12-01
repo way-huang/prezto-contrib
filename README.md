@@ -13,7 +13,7 @@ use these modules. Simply do the following:
 
 ```
 cd $ZPREZTODIR
-git clone --recurse-submodules https://github.com/belak/prezto-contrib contrib
+git clone --recurse-submodules https://github.com/way-huang/prezto-contrib contrib
 ```
 
 After the repo is cloned, you can load modules in the same way you'd load a
